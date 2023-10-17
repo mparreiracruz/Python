@@ -8,3 +8,9 @@ Ex:
 Digite um número 6.127
 O número 6.127 tem a parte inteira 6.
 '''
+
+from math import trunc
+
+n = float(input('Digite um número real: '))
+
+print('A porção inteira de {} é {}'.format(n, trunc(n)))
