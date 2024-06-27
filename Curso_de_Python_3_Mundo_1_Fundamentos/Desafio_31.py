@@ -12,7 +12,7 @@ distancia = float(input('Digite a distancia da sua viagem em quilometros: '))
 
 if distancia <= 200:
     preco_passagem_curta = distancia * 0.50
-    print('Preço da passagem: R${}0'.format(preco_passagem_curta))
+    print('Preço da passagem: R${:.2f}'.format(preco_passagem_curta))
 if distancia > 200:
     preco_passagem_longa = distancia * 0.45
-    print('Preço da passagem : R${}0'. format(preco_passagem_longa))
+    print('Preço da passagem: R${:.2f}'. format(preco_passagem_longa))
